@@ -29,5 +29,5 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
         ]));
 
         return redirect()->route('posts.show', $post);
-    });
+    })->name('posts.store');
 });
