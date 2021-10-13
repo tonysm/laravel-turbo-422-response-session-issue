@@ -35,7 +35,7 @@
                                 {{ __('Cancel') }}
                             </a>
 
-                            <x-jet-button class="ml-4">
+                            <x-jet-button dusk="create-posts-button" class="ml-4">
                                 {{ __('Save') }}
                             </x-jet-button>
                         </div>
